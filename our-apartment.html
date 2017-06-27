@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Our Apartment</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Baloo|Cantarell|Concert+One" rel="stylesheet">
+  <link rel="stylesheet" href="./libs/bootstrap.min.css">
+  <link rel="stylesheet" href="./style/main.css">
+  <link rel="stylesheet" href="./libs/font-awesome.min.c">
+  <script src="./libs/jquery.min.js"></script>
+  <script src="./libs/bootstrap.min.js"></script>
+  <script src="./libs/project.js"></script>
+</head>
+<body>
+<div id="our-apartment" class="container-fluid">
+
+  <div id="header">
+	<div class="row">
+		<!-- <img class="galaxy" src="https://s-media-cache-ak0.pinimg.com/736x/16/48/f4/1648f4e01b50d7629559b12f42d6dbc6.jpg"> -->
+		 <div class="nav col-md-12 col-xs-12">
+			  <ul class="menu-list list-inline text-center">
+				  <li class="menu-item"><a href="index.html" title="Home">Home</a></li>
+				  <li class="menu-item"><a href="our-apartment.html" title="Our Apartment">Our Apartment</a></li>
+				  <li class="menu-item"><a href="blog.html" title="Blog">Blog</a></li>
+				  <li class="menu-item last">Contact</li>
+				  <!-- <button onClick='changeImg("http://static2.hypable.com/wp-content/uploads/2015/05/Dementor-wasp-2.jpg")'>Change Img</button>
+				  <button onClick='revertImg()'>Revert Img</button> -->
+			  </ul>
+			  <!-- <button onClick="setItem('Anita','27')">1</button>
+			  <button onClick="setItem('Mihai','28')">1.1</button>
+			  <button onclick="getItem('Anita')">2</button>
+			  <button onclick="getItem('Mihai')">2.1</button> -->
+			  <button onclick='loadPosts()'>Load posts</button>
+		</div>
+		<div class="headline col-md-12 col-xs-12 text-center">
+		  	<div class="row">
+				<h1 id="custom"><i class="fa fa-star" aria-hidden="true"></i> Our Apartment <i class="fa fa-star" aria-hidden="true"></i></h1>
+				<h2>Our Crib</h2>
+		  </div>
+		</div>
+	</div>
+  </div>
+  <div id="container">
+  	<div class="row">
+		<div class="col-md-10 col-md-offset-1 listColor">
+
+		<div class="row">
+				<div class="space">
+				  <h3>The Space</h3>
+				  <p>This is the place where you definitely feel like home: cozy, familiar and warm.</p>
+				  <p><img src="./static/the-space.jpg" /></p>
+				</div>
+		</div>
+		<div class="row">
+				<div class="space">
+					<div class="col-md-4 text">
+					
+					<p>Properties:</p>
+				</div>
+		</div>
+		<div id="posts">
+			
+		</div>
+	 </div>
+  </div>
+  <footer>
+      Content of the footer
+  </footer>
+</div>
+</body>
+</html>

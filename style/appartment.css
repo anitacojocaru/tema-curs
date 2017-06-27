@@ -1,0 +1,21 @@
+#our-apartment .headline h1 {
+	color: #ffcc00;
+	text-shadow: 0 0 10px #ffffff;
+	font-size: 60px;
+	font-weight: bold;
+	font-family: 'Baloo', cursive;
+	letter-spacing: 2px;
+		
+}
+	.space {
+		padding: 10px;
+	}
+	
+	.space img {
+		border: 1px solid red;
+		width: 100%;
+	}
+		.space p {
+			color: #0000ff;
+			font-size: 16px;
+	}

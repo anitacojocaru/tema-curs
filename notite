@@ -1,0 +1,78 @@
+'string'
+"string"
+
+Variabile:
+var poate fi string, nr, array
+var x = 'string'
+var x = 19
+var x = ['sadadad', 'sda']
+var x ={}
+
+Obiecte: se pot stoca de toate: strings, alfanumerice, arrayuri, booleane, inclusiv functii
+{} e object
+Object {name: "Ion"}
+x.name e Ion
+var x = ['sasa','rere',18]
+x[0] - asa se selecteaza intr un array
+in programare se incepe de la 0. 1 e al doilea elm
+diferenta intre obiect si array e ca obiectul are cheie si valoare.
+
+un array e o lista care poate cuprinde un string, nr, booleane, alt array in el chiar si un obiect.
+['ian','feb','mar'....]
+typeOf(cel de sus).string - verificare daca e string
+
+Valori booleane:
+- logica custom dupa anumite reguli (daca sunt pe site ul de DE, nu arata nu stiu ce)
+var x = true
+if (x) {alert(false)}
+
+Functii:
+function() {} - functie anonima 
+function doSomething() {alert('dementor')}
+doSomething()
+
+Parametri:
+function doSomething(param1, param2) {alert(param1, param2)}
+
+doSomething('param1', 'param2') -daca punem asa, conteaza oridinea
+
+function doSomething(param1, param2) {alert(param1 + ' ' + param2)} - concatenare (vor aparea amandoi parametri)
+
+function doSomething(param1, param2) {alert('Vreau sa am culoarea ' + param1 + ' si fontul ' + param2)}
+doSomething ('rosu','arial')
+
+10.06.2017 
+
+1. Pagina oua HTML + CSS
+2. Call Ajax + pag noua de js
+3. Afisare posturi folosind template-ul
+4. jQuery
+
+$('#users div').eq(2).find('h2')
+$('#users div').eq(2).fadeIn()
+$('#users div').eq(2).fadeOut()
+$('#users div').eq(2).hide()
+$('#users div').eq(2).show()
+
+$('#users div').eq(2).find('h2') - cautam h2 in elementul 2 de pe pagina
+var targetH2 = $('#users div').eq(2).find('h2') - stocam h2 intr o variabila
+targetH2 - afisa variabila
+$(targetH2).css('background', '#791f45') - schimbam un element de css din acel h2 targetat
+
+$('#users div').eq(2).find('p') -cautam p in div
+$('#users div').eq(2).find('p').eq(3) - vrem al 3 lea p in div
+$('#users div').eq(2).find('p').eq(3).css('background', '#acebf0') - schimbam culoarea la al 3 lea p
+
+ev.currentTarget - sa vedem pe ce am dat click pt event + ne da mai multe info despre pozitie si alte date
+
+3 metode ca sa gasim elm in interiorul unui div:
+children() - cauta tot ceea ce contine
+siblings() - acelasi nivel
+parent() - tot e e deasupra cu un nivel
+pt mai multe nivele: parent().parent().parent() de cate ori e nevoie
+
+$('#users div').first().css('background','blue') - am schimbat bg la primul elm
+$('#users div').last().css('background','magenta') - am schimbat bg la ultimul elm
+
+		/*$('#users').append(template);
+		console.log(template);*/

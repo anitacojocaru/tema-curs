@@ -1,0 +1,21 @@
+@keyframes title {
+    from {color: #cc0066;}
+    to {color: #000066;}
+}
+
+#home .headline h1 {
+	animation-name: title;
+    animation-duration: 4s;
+	
+}
+
+@keyframes apartment {
+    from {color: #ffcc00;}
+    to {color: #000066;}
+}
+
+#our-apartment .headline h1 {
+	animation-name: apartment;
+    animation-duration: 4s;
+	
+}
